@@ -1,98 +1,112 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-    integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
-  <title>Portfólio | Augusto Ramos</title>
-</head>
-<body>    
-  <header> <!-- cabeçalho (topo/inicio do seu site)-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+      integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Portfólio | Augusto Ramos</title>
+  </head>
+  <body>
+    <header>
+      <!-- cabeçalho (topo/inicio do seu site)-->
 
-    <!--logo-->
-    <div class="logo"> 
-      <i class="fa-solid fa-a"></i>
-    </div>
+      <!--logo-->
+      <div class="logo">
+        <i class="fa-solid fa-a"></i>
+      </div>
 
-    <nav class="navbar"> <!--Barra que fica suas opções (seu menu)-->
-      
-      <ul class="menu"> <!--lista pra criar o menu-->
-        
-        <li class="opçoes"> <!--opçoes da lista que crie as opções do menu-->
-          <a href="#">Home</a>
-        </li>
+      <nav class="navbar">
+        <!--Barra que fica suas opções (seu menu)-->
 
-        <li class="opçoes">
-          <a href="#">Skills</a>
-        </li>
+        <ul class="menu">
+          <!--lista pra criar o menu-->
 
-        <li class="opçoes">
-            <a href="#">Projetos</a>
-        </li>
+          <li class="opçoes">
+            <!--opçoes da lista que crie as opções do menu-->
+            <a href="#sobreMim">Sobre min</a>
+          </li>
 
-      </ul>
-    </nav>
-  </header>
+          <li class="opçoes">
+            <a href="#skills">Skills</a>
+          </li>
 
-  <main> <!--tag que dentro vai o conteudo principal-->
-    <section class="sobreMim" id="sobreMim"> <!-- tag que usa para dividir em seções o conteudo principal-->
-      
-      <h1>Olá Pessoal!</h1> <!--Tag de titulo-->
+          <li class="opçoes">
+            <a href="#projetos">Projetos</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt praesentium ea a, vitae quis quod minima hic explicabo ratione eos voluptas ab. Molestiae, quos velit labore excepturi doloribus suscipit consequuntur.</p>
+    <main>
+      <!--tag que dentro vai o conteudo principal-->
+      <section class="sobreMim" id="sobreMim">
+        <!-- tag que usa para dividir em seções o conteudo principal-->
 
-    </section>
+        <h1>Olá Pessoal!</h1>
+        <!--Tag de titulo-->
 
-    <section class="skills" id="skills">
-      <h1>Essas são minhas skills</h1>
-      
+        <p>
+          Olá, eu me chamo Augusto e este é o meu portfólio. Sou estudante do
+          Programadores do Amanhã, e este portfólio é um mini projeto que estou
+          criando com base nas atividades assíncronas em sala de aula. Além de
+          aprender como funciona HTML e CSS, também adquiri conhecimentos em
+          lógica de programação e métodos diferentes para resolver problemas.
+          Estou no início de uma grande jornada para me tornar um desenvolvedor
+          e estou muito animado com o que ainda vou aprender.
+        </p>
+      </section>
+
+      <section class="skills" id="skills">
+        <h1>Essas são minhas skills</h1>
+
+        <ul>
+          <li>
+            <h2>HTML</h2>
+          </li>
+
+          <li>
+            <h2>CSS</h2>
+          </li>
+        </ul>
+      </section>
+
+      <section class="projetos" id="projetos">
+        <h1>Esses são meus projeto</h1>
+
+        <ul>
+          <li>
+            <h2>Scrath</h2>
+          </li>
+
+          <li>
+            <h2>Portfolio</h2>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <!--Rodape parte final do seu site (creditos e contatos)-->
+
       <ul>
         <li>
-          <h2>HTML</h2>
+          <a href="https://github.com/Augusto-Ramos" target="_blank"
+            ><img src="" alt="icone do github"
+          /></a>
         </li>
 
         <li>
-          <h2>CSS</h2>
+          <a href="" target="_blank"><img src="" alt="icone do linkedin" /></a>
         </li>
       </ul>
-
-    </section>
-
-    <section class="projetos" id="projetos">
-      <h1>Esses são meus projeto</h1>
-
-      <ul>
-        <li>
-          <h2>Scrath</h2>
-        </li>
-
-        <li>
-          <h2>Portfolio</h2>
-        </li>
-      </ul>
-    </section>
-  </main>
-
-  <footer> <!--Rodape parte final do seu site (creditos e contatos)-->
-    
-    <ul>
-      <li>
-        <a href="https://github.com/Augusto-Ramos" target="_blank"><img src="" alt="icone do github"></a>
-      </li>
-
-      <li>
-        <a href="" target="_blank"><img src="" alt="icone do linkedin"></a>
-      </li>
-    </ul>
-    
-  </footer>
-</body>
+    </footer>
+  </body>
 </html>
